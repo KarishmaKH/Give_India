@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donation Form</title>
+    <link rel="shortcut icon" href="images/logo.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+    
+      </nav>
+<section class="my-5">
+        <div class="py-5">
+            <h2 class="text-center"  style="color:purple;"><b>DONATION FORM</b></h2></h2>
+        </div>
+        <div class="w-50 m-auto">
+            <form action="payment.php" method="post">
+                <div class="form-group" >
+                    <input type="text" class="form-control"  name="Name" size="20" maxlength="25" autocomplete="off" tabindex="1" placeholder="Your Name" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="Email" class="form-control"  name="Email" maxlength="100" autocomplete="off" tabindex="3" placeholder="Email" required >
+                </div>
+                <div class="form-group">
+                    <input type="tel" pattern="[0-9]{10}" class="form-control" name="phone" autocomplete="off" tabindex="5"  placeholder="Phone Number" required>
+                </div>
+               
+                <div class="form-group">
+                    <input type="number" class="form-control" name="Amount" autocomplete="off" tabindex="5"  placeholder="Amount" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="submit" value="Donate" class="btn btn-success btn-lg" style='width:100px;margin:0 50%;position:relative;left:-50px;'>
+                </div>
+             </form>
+             
+            </div>
+
+            </section>
+    <footer>
+        <p class="p-3 bg-pink text-dark text-center">Choose to illuminate the life of these kids.</p>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    <html>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+    
+      </nav>
+
+    <section class="my-5">
+        <div class="py-5">
+            <h2 class="text-center" style="color:purple";><b>CONTACT US</b></h2>
+        </div>
+        <div class="w-50 m-auto">
+            <form action="response.html" method="post">
+                <div class="form-group">
+                    <input type="text" name="user" autocomplete="off" class="form-control" size="40"
+                        placeholder="Your Name" tabindex="1" required>
+                </div>
+                <div class="form-group">
+                    <input type="Email Id" name="email" autocomplete="off" class="form-control" size="40"
+                        placeholder="Email Id" tabindex="3" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" pattern="[0-9]{10}" class="form-control" name="phone" autocomplete="off" tabindex="5"  placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Query" name="comment"></textarea>
+                </div>
+                <div class="text-center">
+                    <input type="submit" name="submit" value="Submit" class="btn btn-success btn-lg ">
+                </div>
+            </form>
+        </div>
+    </section>
+   
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    <html>
+</body>
+
+</html>
