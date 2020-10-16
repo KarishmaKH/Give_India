@@ -2,7 +2,7 @@
 
 A Simple Donation Website  using Instamojo payment gateway.
 
-Website Link:https://donateindia1.000webhostapp.com
+Website Link:https://25112511.000webhostapp.com/
 
 Card credentials for testing:
 
@@ -21,5 +21,3 @@ Any 3 digit number
 3D-Secure Password:
 
 1221
-
-Youtube:https://www.youtube.com/watch?v=pfTzHHsT58E
